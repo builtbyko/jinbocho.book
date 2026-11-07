@@ -86,3 +86,55 @@
 - 日本の古本屋｜＠ワンダーの店舗紹介：https://www.kosho.or.jp/abouts/?id=12011430
 
 街の来歴：https://www.edo-chiyoda.jp/bunkazaihogonotorikumi/bunkazaihogochosain/hogocho2019/1/366.html
+
+
+# 追加6地点の出典（2026年11月7日）
+
+## 玉英堂書店
+
+創業・創立：1902年（明治35年）／建物：建築年未確認
+
+- 玉英堂書店｜創業・神保町への移転・取扱分野：https://gyokueido.com/
+- 日本の古本屋｜所在地と店舗登録情報：https://www.kosho.or.jp/abouts/?id=12010090
+- 位置の参考：https://www.kosho.or.jp/abouts/?id=12010090
+
+## 悠久堂書店
+
+創業・創立：1915年（大正4年）／建物：建築年未確認
+
+- 悠久堂書店｜店の歴史と各代の専門分野：https://yukyudou.com/aboutus/
+- 日本の古本屋｜店舗登録情報・位置：https://www.kosho.or.jp/abouts/?id=12010110
+- 位置の参考：https://www.kosho.or.jp/abouts/?id=12010110
+
+## 南洋堂書店
+
+創業・創立：1926年（取材資料による）／建物：1980年（昭和55年）
+
+- 南洋堂書店｜取扱書籍と店舗案内：https://nanyodo.com/
+- おさんぽ神保町｜店員への取材・創業と建物：https://osanpo-jimbo.com/info/5002135
+- 位置の参考：https://mapcarta.com/N3881341809
+
+## 文房堂
+
+創業・創立：1887年（明治20年）／建物：1922年の外壁を保存／1990年改築
+
+- 文房堂｜創業・移転・画材製造の歴史：https://www.bumpodo.co.jp/company/history.html
+- 千代田区｜文房堂ビルの竣工・外壁保存：https://www.city.chiyoda.lg.jp/documents/4200/13-bumbodobiru-r405.pdf
+- 位置の参考：https://visit-chiyoda.tokyo/app/spot/detail/111
+
+## さぼうる
+
+創業・創立：1955年（昭和30年）／建物：建築年未確認
+
+- 千代田区観光協会｜店名・内装・フロア構成：https://visit-chiyoda.tokyo/app/spot/detail/482
+- GOOD LUCK TRIP（店監修）｜1955年創業：https://www.gltjp.com/ja/directory/item/14176/
+- 位置の参考：https://visit-chiyoda.tokyo/app/spot/detail/482
+
+## カトリック神田教会
+
+創業・創立：1874年（明治7年）／建物：1928年（昭和3年）
+
+- 神田教会｜創立・学校・聖堂の歴史：https://catholickandachurch.org/about/church/history/
+- 神田教会｜所在地と交通案内：https://catholickandachurch.org/contact/access/
+- 位置の参考：https://mapfan.com/spots/S5CY5,J,WHJR80
+

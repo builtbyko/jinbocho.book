@@ -18,7 +18,8 @@ const shops = [
         "label": "千代田区｜誠心堂書店の建物・来歴",
         "url": "https://www.city.chiyoda.lg.jp/documents/4200/14-seishindoshoten-r405.pdf"
       }
-    ]
+    ],
+    "category": "古書店"
   },
   {
     "id": "kitazawa",
@@ -36,7 +37,8 @@ const shops = [
         "label": "日本古書籍商協会｜北澤書店の来歴",
         "url": "https://abaj.gr.jp/shop_info.php?shopid=8"
       }
-    ]
+    ],
+    "category": "古書店"
   },
   {
     "id": "yaguchi",
@@ -59,7 +61,8 @@ const shops = [
         "label": "千代田区観光協会｜店構えと歴史",
         "url": "https://visit-chiyoda.tokyo/app/spot/detail/512"
       }
-    ]
+    ],
+    "category": "古書店"
   },
   {
     "id": "isseido",
@@ -82,7 +85,8 @@ const shops = [
         "label": "一誠堂書店｜建物紹介",
         "url": "https://www.isseido-books.co.jp/building/"
       }
-    ]
+    ],
+    "category": "古書店"
   },
   {
     "id": "komiyama",
@@ -100,7 +104,8 @@ const shops = [
         "label": "小宮山書店｜創立と現在の取扱分野",
         "url": "https://www.book-komiyama.co.jp/about/index.php"
       }
-    ]
+    ],
+    "category": "古書店"
   },
   {
     "id": "tamura",
@@ -122,7 +127,8 @@ const shops = [
         "label": "日本の古本屋｜田村書店の取扱分野",
         "url": "https://www.kosho.or.jp/abouts/?id=12010180"
       }
-    ]
+    ],
+    "category": "古書店"
   },
   {
     "id": "ohya",
@@ -148,7 +154,8 @@ const shops = [
         "label": "大屋書房｜店舗案内",
         "url": "https://www.ohya-shobo.com/store/"
       }
-    ]
+    ],
+    "category": "古書店"
   },
   {
     "id": "yamada",
@@ -171,7 +178,8 @@ const shops = [
         "label": "日本古書籍商協会｜創業・移転の記載",
         "url": "https://abaj.gr.jp/shop_info.php?shopid=25"
       }
-    ]
+    ],
+    "category": "古書店"
   },
   {
     "id": "wonder",
@@ -189,7 +197,159 @@ const shops = [
         "label": "日本の古本屋｜＠ワンダーの店舗紹介",
         "url": "https://www.kosho.or.jp/abouts/?id=12011430"
       }
-    ]
+    ],
+    "category": "古書店"
+  },
+  {
+    "id": "gyokueido",
+    "name": "玉英堂書店",
+    "genre": "稀覯本・文学初版本・文人の筆跡",
+    "category": "古書店",
+    "address": "神田神保町1-1",
+    "lat": 35.69581,
+    "lng": 139.760204,
+    "founded": "1902年（明治35年）",
+    "built": "建築年未確認",
+    "description": "本郷湯島天神下で古本と貸本の店として創業し、1926年から神田神保町で営業しています。古写本や古版本、文学作品の初版本、文豪の草稿や書簡などを扱う書店です。書かれた内容だけでなく、著者の筆跡や本そのものの成り立ちを伝える資料が集まります。",
+    "source": "https://gyokueido.com/",
+    "references": [
+      {
+        "label": "玉英堂書店｜創業・神保町への移転・取扱分野",
+        "url": "https://gyokueido.com/"
+      },
+      {
+        "label": "日本の古本屋｜所在地と店舗登録情報",
+        "url": "https://www.kosho.or.jp/abouts/?id=12010090"
+      }
+    ],
+    "coordinateSource": "https://www.kosho.or.jp/abouts/?id=12010090"
+  },
+  {
+    "id": "yukyudo",
+    "name": "悠久堂書店",
+    "genre": "美術・料理・山岳・動植物",
+    "category": "古書店",
+    "address": "神田神保町1-3-2",
+    "lat": 35.6957,
+    "lng": 139.759881,
+    "founded": "1915年（大正4年）",
+    "built": "建築年未確認",
+    "description": "1915年にこの地で開業。当初は、周辺の大学に通う学生向けの教科書販売が中心でした。2代目は山岳・動植物、3代目は食文化、4代目は美術へと、代を重ねるごとに取扱分野を増やしてきました。店ごとに専門が分かれる神保町の変化が、一軒の書棚の歩みにも表れています。",
+    "source": "https://yukyudou.com/aboutus/",
+    "references": [
+      {
+        "label": "悠久堂書店｜店の歴史と各代の専門分野",
+        "url": "https://yukyudou.com/aboutus/"
+      },
+      {
+        "label": "日本の古本屋｜店舗登録情報・位置",
+        "url": "https://www.kosho.or.jp/abouts/?id=12010110"
+      }
+    ],
+    "coordinateSource": "https://www.kosho.or.jp/abouts/?id=12010110"
+  },
+  {
+    "id": "nanyodo",
+    "name": "南洋堂書店",
+    "genre": "建築・都市・デザイン",
+    "category": "古書店",
+    "address": "神田神保町1-21",
+    "lat": 35.6952,
+    "lng": 139.76112,
+    "founded": "1926年（取材資料による）",
+    "built": "1980年（昭和55年）",
+    "description": "建築の新刊・古書・洋書を扱う専門書店。地域紙が店員に行った取材では、創業を1926年としています。近隣大学の建築学科とのつながりを背景に、建築分野を専門とする店へ変わっていきました。",
+    "building": "1980年、土岐新の設計で建てられたコンクリート打ち放しの建物です。正方形をモチーフとする外観が特徴。2007年には菊地宏が1・2階を改装しました。本を扱う店そのものも、神保町で見られる建築の一つです。",
+    "source": "https://nanyodo.com/",
+    "references": [
+      {
+        "label": "南洋堂書店｜取扱書籍と店舗案内",
+        "url": "https://nanyodo.com/"
+      },
+      {
+        "label": "おさんぽ神保町｜店員への取材・創業と建物",
+        "url": "https://osanpo-jimbo.com/info/5002135"
+      }
+    ],
+    "coordinateSource": "https://mapcarta.com/N3881341809"
+  },
+  {
+    "id": "bumpodo",
+    "name": "文房堂",
+    "genre": "画材・スクラッチタイルの外壁",
+    "category": "画材店・建物",
+    "address": "神田神保町1-21-1",
+    "lat": 35.69531,
+    "lng": 139.760936,
+    "founded": "1887年（明治20年）",
+    "built": "1922年の外壁を保存／1990年改築",
+    "description": "小川町の中西屋書店の一部を借りて創業した画材店。1906年に現在のすずらん通りへ移り、1921年には専門家向けの国産油絵具を製造・販売しました。本の街には、絵を描く人のための道具を届けてきた店も残っています。",
+    "building": "すずらん通り側の外壁は1922年のもの。1990年にその外壁を残して、背後の建物本体を建て替えました。筋のあるスクラッチタイル、アーチ窓、窓上のライオンやテラコッタ装飾が見られます。建物全体が1922年のまま残っているわけではありません。",
+    "source": "https://www.bumpodo.co.jp/company/",
+    "references": [
+      {
+        "label": "文房堂｜創業・移転・画材製造の歴史",
+        "url": "https://www.bumpodo.co.jp/company/history.html"
+      },
+      {
+        "label": "千代田区｜文房堂ビルの竣工・外壁保存",
+        "url": "https://www.city.chiyoda.lg.jp/documents/4200/13-bumbodobiru-r405.pdf"
+      }
+    ],
+    "coordinateSource": "https://visit-chiyoda.tokyo/app/spot/detail/111"
+  },
+  {
+    "id": "sabouru",
+    "name": "さぼうる",
+    "genre": "喫茶店・路地と店内の造り",
+    "category": "喫茶店",
+    "address": "神田神保町1-11",
+    "lat": 35.695561,
+    "lng": 139.75862,
+    "founded": "1955年（昭和30年）",
+    "built": "建築年未確認",
+    "description": "神保町駅近くの路地にある、1955年創業の喫茶店。店名はスペイン語の「味」に由来します。創業時のオーナーが内装の構想にも関わり、木彫りの品々が置かれた独特の店内をつくりました。",
+    "building": "入ると少し上がった床と地下へ下りる階段があり、店内は3つのフロアに分かれます。低い天井や近い席の間隔が、奥行きのある空間をつくっています。創業年と現建物の竣工年が同じかは確認できていません。",
+    "source": "https://visit-chiyoda.tokyo/app/spot/detail/482",
+    "references": [
+      {
+        "label": "千代田区観光協会｜店名・内装・フロア構成",
+        "url": "https://visit-chiyoda.tokyo/app/spot/detail/482"
+      },
+      {
+        "label": "GOOD LUCK TRIP（店監修）｜1955年創業",
+        "url": "https://www.gltjp.com/ja/directory/item/14176/"
+      }
+    ],
+    "coordinateSource": "https://visit-chiyoda.tokyo/app/spot/detail/482"
+  },
+  {
+    "id": "kandachurch",
+    "name": "カトリック神田教会",
+    "genre": "1928年の聖堂・教育の歴史",
+    "category": "教会・建物",
+    "address": "西神田1-1-12",
+    "lat": 35.699389,
+    "lng": 139.757371,
+    "founded": "1874年（明治7年）",
+    "foundedLabel": "教会の創立",
+    "built": "1928年（昭和3年）",
+    "description": "1874年、外国語を教えるラテン学校が神田へ移り、その地に聖堂を設けたことが教会の始まりです。のちの白百合学園や暁星学園につながる教育活動も、教会の敷地を起点としました。神保町の北側に、学校と街の関係を伝える場所があります。",
+    "building": "現在の聖堂はマックス・ヒンデルの設計で、1928年に献堂。ルネッサンス・ロマネスク様式を取り入れた建物で、戦災を免れて残りました。明治期の教会創立と、いま見える昭和初期の聖堂を分けてたどれます。",
+    "visitNote": "聖堂は礼拝の場です。見学は公式の公開案内を確認してください。儀式中は見学できない場合があります。",
+    "infoLabel": "公開時間・見学案内",
+    "source": "https://catholickandachurch.org/about/open-hours/",
+    "references": [
+      {
+        "label": "神田教会｜創立・学校・聖堂の歴史",
+        "url": "https://catholickandachurch.org/about/church/history/"
+      },
+      {
+        "label": "神田教会｜所在地と交通案内",
+        "url": "https://catholickandachurch.org/contact/access/"
+      }
+    ],
+    "coordinateSource": "https://mapfan.com/spots/S5CY5,J,WHJR80"
   }
 ];
 const $ = id => document.getElementById(id);
@@ -200,13 +360,13 @@ function announce(message) { $('status').textContent = message; $('status').hidd
 function setPanel(open) { $('panel').classList.toggle('open',open); $('panel-body').hidden = !open; $('panel-toggle').setAttribute('aria-expanded',String(open)); if(map) setTimeout(()=>{map.invalidateSize();if(selected===null)overview();},0); }
 function icon(i) { return L.divIcon({className:'book-marker',html:`<span class="pin${selected===i?' active':''}">${i+1}</span>`,iconSize:[30,30],iconAnchor:[15,15]}); }
 function paint() {
-  $('shops').innerHTML = shops.map((s,i)=>`<button class="shop-row" data-index="${i}"><span class="number">${i+1}</span><span class="row-text"><strong>${s.name}</strong><small>${s.genre}</small></span><span class="row-arrow" aria-hidden="true">›</span></button>`).join('');
+  $('shops').innerHTML = shops.map((s,i)=>`<button class="shop-row" data-index="${i}"><span class="number">${i+1}</span><span class="row-text"><strong>${s.name}</strong><small>${s.category} · ${s.genre}</small></span><span class="row-arrow" aria-hidden="true">›</span></button>`).join('');
   markers.forEach((m,i)=>{m.setIcon(icon(i));m.setZIndexOffset(selected===i?1000:0);m.getElement()?.setAttribute('aria-label',`${i+1} ${shops[i].name}`);});
 }
 function showList() { selected=null; $('list-view').hidden=false; $('detail-view').hidden=true; paint(); $('panel-body').scrollTop=0; }
 function showShop(i,focus=false) {
   selected=i; const s=shops[i]; setPanel(true); $('list-view').hidden=true; $('detail-view').hidden=false;
-  $('detail-view').innerHTML=`<div class="detail-content"><button class="back" id="back">← 古書店一覧</button><div class="detail-title"><span class="number">${i+1}</span><h2 tabindex="-1">${s.name}</h2></div><span class="tag">${s.genre}</span><dl class="dates"><div><dt>店の創業</dt><dd>${s.founded}</dd></div><div><dt>建物の竣工</dt><dd>${s.built}</dd></div></dl><h3 class="card-heading">この場所の歴史</h3><p class="intro">${s.description}</p>${s.building?`<h3 class="card-heading">建物について</h3><p class="intro">${s.building}</p>`:''}${s.historyNote?`<p class="history-note">${s.historyNote}</p>`:''}<p class="detail-address">東京都千代田区${s.address}<br>営業時間・休業日は下の店舗情報でご確認ください。</p><a class="source-link" href="${s.source}" target="_blank" rel="noopener noreferrer">店舗情報 ↗</a><details class="references"><summary>出典</summary>${s.references.map(r=>`<a href="${r.url}" target="_blank" rel="noopener noreferrer">${r.label} ↗</a>`).join('')}</details></div>`;
+  $('detail-view').innerHTML=`<div class="detail-content"><button class="back" id="back">← 場所一覧</button><div class="detail-title"><span class="number">${i+1}</span><h2 tabindex="-1">${s.name}</h2></div><span class="tag">${s.genre}</span><dl class="dates"><div><dt>${s.foundedLabel || '店の創業'}</dt><dd>${s.founded}</dd></div><div><dt>建物の竣工</dt><dd>${s.built}</dd></div></dl><h3 class="card-heading">この場所の歴史</h3><p class="intro">${s.description}</p>${s.building?`<h3 class="card-heading">建物について</h3><p class="intro">${s.building}</p>`:''}${s.historyNote?`<p class="history-note">${s.historyNote}</p>`:''}<p class="detail-address">東京都千代田区${s.address}<br>${s.visitNote || '営業時間・休業日は下の案内でご確認ください。'}</p><a class="source-link" href="${s.source}" target="_blank" rel="noopener noreferrer">${s.infoLabel || '案内・店舗情報'} ↗</a><details class="references"><summary>出典</summary>${s.references.map(r=>`<a href="${r.url}" target="_blank" rel="noopener noreferrer">${r.label} ↗</a>`).join('')}</details></div>`;
   $('back').onclick=()=>{showList();$('shops').querySelector(`[data-index="${i}"]`).focus();};
   $('panel-body').scrollTop=0; paint();
   if(map){follow=false;const size=map.getSize(); const pixel=map.project([s.lat,s.lng],18);pixel.y+=window.innerWidth<760?size.y*.20:0;pixel.x+=window.innerWidth>=760?-170:0;map.setView(map.unproject(pixel,18),18,{animate:!reducedMotion});}
@@ -243,8 +403,8 @@ if(window.L){
   map=L.map('map',{zoomControl:false}).setView([35.6958,139.7575],16);
   L.control.zoom({position:'topright'}).addTo(map);L.control.scale({imperial:false,position:'bottomleft'}).addTo(map);
   let tileFailures=0;const tiles=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
-  tiles.on('tileerror',()=>{if(++tileFailures===3)announce('背景地図を読み込めません。通信状態を確認してください。古書店一覧は利用できます。');});
+  tiles.on('tileerror',()=>{if(++tileFailures===3)announce('背景地図を読み込めません。通信状態を確認してください。場所一覧は利用できます。');});
   shops.forEach((s,i)=>{const m=L.marker([s.lat,s.lng],{icon:icon(i),title:s.name,keyboard:true}).addTo(map).bindTooltip(s.name,{direction:'top',offset:[0,-15],className:'map-tooltip'}).on('click',()=>showShop(i,true));markers.push(m);});
   map.on('dragstart',()=>{follow=false;});paint();overview();
-}else{announce('地図を読み込めませんでした。通信状態を確認して再読み込みしてください。古書店一覧は利用できます。');setPanel(true);}
+}else{announce('地図を読み込めませんでした。通信状態を確認して再読み込みしてください。場所一覧は利用できます。');setPanel(true);}
 if(window.innerWidth>=760)setPanel(true);
