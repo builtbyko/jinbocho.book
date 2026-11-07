@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#244f42">
+  <meta name="description" content="現在地を見ながら神保町の古書店を歩く、シンプルな街歩きマップ。">
+  <title>神保町古書店マップ</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <main>
+    <div id="map" aria-label="神保町の古書店の地図"></div>
+    <header class="title-card"><span class="book-icon" aria-hidden="true">▤</span><div><h1>神保町古書店マップ</h1><p>本の街を、歩こう。</p></div></header>
+    <nav class="map-tools" aria-label="地図の操作">
+      <button id="locate" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3"/></svg><span>現在地</span></button>
+      <button id="overview"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></svg><span>全体</span></button>
+    </nav>
+    <p id="status" role="status" aria-live="polite" hidden></p>
+    <section id="panel" class="panel" aria-label="古書店一覧と店舗情報">
+      <button id="panel-toggle" class="panel-toggle" aria-expanded="false" aria-controls="panel-body"><span class="grip" aria-hidden="true"></span><span class="panel-label">古書店一覧 <span class="count">9店舗</span></span><span id="progress">訪問 0 / 9</span><span class="chevron" aria-hidden="true">⌃</span></button>
+      <div id="panel-body" hidden>
+        <div id="list-view">
+          <div class="list-head"><p>気になるお店を選んでみよう</p><button id="route" aria-pressed="false">おすすめ順を表示</button></div>
+          <p id="route-note" class="note" hidden>出発：千代田区役所 → ①〜⑧。⑨は寄り道。破線は訪問順の目安です。道路に沿った経路は各店の「徒歩で行く」で確認できます。</p>
+          <div id="shops"></div>
+          <details class="about"><summary>このマップについて</summary><p>店舗情報の確認日：2026年11月7日。各店の情報源は店舗カードに掲載しています。営業時間・休業日はお出かけ前に確認してください。ピンは店舗付近の目安です。</p><p>現在地は端末で表示するだけで、このサイトのサーバーへ送信・保存しません。訪問記録はこのブラウザに保存します。地図表示にはインターネット接続が必要です。</p><p>地図：© OpenStreetMap contributors / 地図ライブラリ：Leaflet</p><button id="reset">訪問記録をリセット</button><p id="reset-confirm" hidden>すべての訪問記録を消しますか？ <button id="reset-yes">消す</button> <button id="reset-no">戻る</button></p></details>
+        </div>
+        <article id="detail-view" hidden></article>
+      </div>
+    </section>
+    <noscript><p class="no-script">地図を表示するにはJavaScriptを有効にしてください。</p></noscript>
+  </main>
+</body>
+</html>
