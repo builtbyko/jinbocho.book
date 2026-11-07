@@ -7,9 +7,12 @@
   <meta name="description" content="現在地を見ながら神保町の古書店を歩く、シンプルな街歩きマップ。">
   <title>神保町古書店マップ</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
-  <link rel="stylesheet" href="style.css">
+  <style>:root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif;color:#24352e;background:#e8ece6;--green:#244f42;--muted:#6c7771;--line:#e5e9e4}*{box-sizing:border-box}body{margin:0}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;color:inherit;cursor:pointer}button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #bb8a39;outline-offset:3px}button{border:0;background:white}main,#map{position:absolute;inset:0}#map{z-index:0}h1{font-size:17px;letter-spacing:.03em;margin:0;font-weight:700}.title-card{position:absolute;top:max(16px,env(safe-area-inset-top));left:16px;display:flex;align-items:center;gap:12px;background:#fff;padding:14px 18px;border-radius:12px;box-shadow:0 3px 18px #17382a18;z-index:500}.title-card p{margin:5px 0 0;font-size:11px;letter-spacing:.1em;color:var(--muted)}.book-icon{font-size:32px;color:var(--green);line-height:1}.map-tools{position:absolute;right:16px;top:110px;z-index:500;display:grid;gap:10px}.map-tools button{width:54px;min-height:58px;display:grid;place-content:center;justify-items:center;gap:4px;border-radius:12px;box-shadow:0 2px 12px #17382a20;font-size:10px}.map-tools svg{width:23px;height:23px;fill:none;stroke:var(--green);stroke-width:1.8}.map-tools button[aria-pressed=true]{background:var(--green);color:white}.map-tools button[aria-pressed=true] svg{stroke:white}.panel{position:absolute;z-index:600;bottom:0;left:0;right:0;background:white;border-radius:20px 20px 0 0;box-shadow:0 -4px 30px #17382a18;max-height:52dvh;display:flex;flex-direction:column;padding-bottom:env(safe-area-inset-bottom)}.panel-toggle{position:relative;display:flex;align-items:center;gap:12px;min-height:79px;padding:26px 22px 17px;border-radius:20px 20px 0 0;flex:none;width:100%;text-align:left}.grip{position:absolute;top:9px;width:34px;height:4px;background:#d9dfd9;border-radius:5px;left:calc(50% - 17px)}.panel-label{font-weight:650;font-size:15px}.count{color:var(--muted);font-weight:400;font-size:11px;margin-left:8px}#progress{font-size:11px;margin-left:auto;color:var(--muted)}.chevron{font-size:20px;color:var(--green)}.panel.open .chevron{transform:rotate(180deg)}#panel-body{overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin}.list-head{display:flex;align-items:center;justify-content:space-between;padding:3px 22px 14px;gap:8px}.list-head p{font-size:11px;color:var(--muted);margin:0}.list-head button{font-size:11px;padding:9px 10px;border:1px solid var(--line);border-radius:8px;white-space:nowrap}.list-head button[aria-pressed=true]{color:var(--green);background:#edf4ee;border-color:#c3d3c7}.shop-row{display:flex;align-items:center;border-top:1px solid var(--line);width:100%;gap:14px;padding:16px 22px;text-align:left}.number{display:grid;place-items:center;width:30px;height:30px;border:1px solid #c4d1c9;border-radius:50%;color:var(--green);font-size:12px;flex:none}.shop-row.visited .number{background:var(--green);border-color:var(--green);color:white}.row-text{flex:1;min-width:0}.row-text strong{font-size:14px;font-weight:600;display:block}.row-text small{display:block;color:var(--muted);font-size:11px;margin-top:5px}.row-arrow{color:#9aa69e}.shop-row:hover{background:#f6f8f4}.note{font-size:11px;line-height:1.8;color:var(--muted);padding:0 22px 14px;margin:0}.about{font-size:11px;color:var(--muted);padding:18px 22px 24px;border-top:1px solid var(--line);line-height:1.9}.about summary{cursor:pointer}.about button{padding:7px 10px;border:1px solid var(--line);border-radius:6px;font-size:11px}.detail-content{padding:0 22px 24px}.back{font-size:12px;color:var(--muted);padding:2px 0 15px;display:inline-block}.detail-title{display:flex;align-items:center;gap:12px}.detail-title h2{margin:0;font-size:22px;letter-spacing:.04em}.tag{font-size:11px;display:inline-block;color:var(--green);background:#eff3ee;padding:5px 9px;border-radius:5px;margin:14px 0 8px}.intro{font-size:13px;line-height:1.95;margin:6px 0 14px}.detail-address{font-size:11px;color:var(--muted);line-height:1.8;margin:10px 0}.detail-actions{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:16px 0}.detail-actions a,.detail-actions button{display:flex;align-items:center;justify-content:center;padding:13px 8px;min-height:46px;text-decoration:none;border:1px solid #c8d5cd;border-radius:8px;color:var(--green);font-size:12px}.detail-actions .primary{background:var(--green);color:white;border-color:var(--green)}.source-link{font-size:11px;color:var(--green)}.next{border-top:1px solid var(--line);padding-top:14px;margin-top:16px}.next button{width:100%;text-align:left;color:var(--green);font-size:12px;padding:7px 0}#status{position:absolute;z-index:650;top:100px;left:16px;right:86px;max-width:420px;background:#fff;padding:12px 14px;border-radius:9px;box-shadow:0 2px 12px #17382a20;line-height:1.7;font-size:12px;margin:0}.book-marker{background:none;border:0}.pin{height:30px;width:30px;background:var(--green);border:2px solid white;border-radius:50%;display:grid;place-items:center;color:white;font:bold 12px/1 sans-serif;box-shadow:0 2px 6px #163d3a50;transition:transform .15s}.pin.active{background:#b17b34;transform:scale(1.2)}.pin.done{background:#6d8679}.map-tooltip{font-family:inherit;font-size:11px;border:0;box-shadow:0 2px 8px #17382a18;color:var(--green)}.start-marker{background:white;border:2px solid var(--green);border-radius:4px;width:14px;height:14px}.leaflet-control-attribution{font-size:9px!important}.leaflet-bottom{bottom:82px}.leaflet-control-zoom a{color:var(--green)!important}.no-script{position:absolute;top:130px;left:16px;right:16px;z-index:900;background:white;padding:20px}#reset-confirm{padding:10px;background:#f5f7f3;border-radius:6px}[hidden]{display:none!important}@media(min-width:760px){.title-card{top:24px;left:24px}.panel{left:24px;bottom:24px;right:auto;width:355px;border-radius:16px;max-height:calc(100dvh - 145px);padding-bottom:0}.panel-toggle{border-radius:16px;min-height:65px;padding:18px 20px}.grip{display:none}.panel-label{font-size:14px}.map-tools{top:24px;right:24px}.leaflet-bottom{bottom:0}.leaflet-top{top:170px}#status{top:105px;left:24px;right:auto;width:355px}.detail-title h2{font-size:20px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}@media(max-width:350px){h1{font-size:15px}.title-card{padding:12px}.count{display:none}.panel-toggle{padding-left:16px;padding-right:16px}.list-head{padding-left:16px;padding-right:16px}}
+
+.chevron{margin-left:auto}
+</style>
   <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
-  <script defer src="app.js"></script>
+
 </head>
 <body>
   <main>
@@ -21,18 +24,88 @@
     </nav>
     <p id="status" role="status" aria-live="polite" hidden></p>
     <section id="panel" class="panel" aria-label="古書店一覧と店舗情報">
-      <button id="panel-toggle" class="panel-toggle" aria-expanded="false" aria-controls="panel-body"><span class="grip" aria-hidden="true"></span><span class="panel-label">古書店一覧 <span class="count">9店舗</span></span><span id="progress">訪問 0 / 9</span><span class="chevron" aria-hidden="true">⌃</span></button>
+      <button id="panel-toggle" class="panel-toggle" aria-expanded="false" aria-controls="panel-body"><span class="grip" aria-hidden="true"></span><span class="panel-label">古書店一覧 <span class="count">9店舗</span></span><span class="chevron" aria-hidden="true">⌃</span></button>
       <div id="panel-body" hidden>
         <div id="list-view">
-          <div class="list-head"><p>気になるお店を選んでみよう</p><button id="route" aria-pressed="false">おすすめ順を表示</button></div>
-          <p id="route-note" class="note" hidden>出発：千代田区役所 → ①〜⑧。⑨は寄り道。破線は訪問順の目安です。道路に沿った経路は各店の「徒歩で行く」で確認できます。</p>
           <div id="shops"></div>
-          <details class="about"><summary>このマップについて</summary><p>店舗情報の確認日：2026年11月7日。各店の情報源は店舗カードに掲載しています。営業時間・休業日はお出かけ前に確認してください。ピンは店舗付近の目安です。</p><p>現在地は端末で表示するだけで、このサイトのサーバーへ送信・保存しません。訪問記録はこのブラウザに保存します。地図表示にはインターネット接続が必要です。</p><p>地図：© OpenStreetMap contributors / 地図ライブラリ：Leaflet</p><button id="reset">訪問記録をリセット</button><p id="reset-confirm" hidden>すべての訪問記録を消しますか？ <button id="reset-yes">消す</button> <button id="reset-no">戻る</button></p></details>
+          <details class="about"><summary>このマップについて</summary><p>店舗情報の確認日：2026年11月7日。各店の情報源は店舗カードに掲載しています。営業時間・休業日はお出かけ前に確認してください。ピンは店舗付近の目安です。</p><p>現在地は端末で表示するだけで、このサイトのサーバーへ送信・保存しません。地図表示にはインターネット接続が必要です。</p><p>地図：© OpenStreetMap contributors / 地図ライブラリ：Leaflet</p></details>
         </div>
         <article id="detail-view" hidden></article>
       </div>
     </section>
     <noscript><p class="no-script">地図を表示するにはJavaScriptを有効にしてください。</p></noscript>
   </main>
+<script>window.addEventListener('DOMContentLoaded',()=>{
+'use strict';
+
+const shops = [
+  {id:'seishindo',name:'誠心堂書店',genre:'和本・漢籍・書道',address:'神田神保町2-24',lat:35.69758,lng:139.75709,description:'和本や漢籍、書道の本を扱う古書店。拓本や印譜など、文字のかたちと歴史をたどる資料にも出会えます。活字の本とはひと味違う、筆で書かれた文字の世界をのぞいてみましょう。',source:'https://book-seishindo.com/'},
+  {id:'kitazawa',name:'北沢書店',genre:'洋書・英米文学・人文科学',address:'神田神保町2-5 北沢ビル2F',lat:35.69559,lng:139.75635,description:'1902年創業。英米文学、哲学、歴史など、人文分野の洋書を探せるお店です。背表紙の文字や装丁に目を向けると、日本語の本とは異なる本づくりの表情も楽しめます。',source:'https://abaj.gr.jp/shop_info.php?shopid=8'},
+  {id:'yaguchi',name:'矢口書店',genre:'映画・演劇・演芸',address:'神田神保町2-5-1',lat:35.69573,lng:139.75701,description:'映画、演劇、演芸の専門店。脚本や戯曲、映画のパンフレットなどから、作品が生まれた時代の空気が伝わってきます。好きな映画や俳優を入口に、紙に残った舞台やスクリーンの記憶を探してみてください。',source:'https://yaguchishoten.jp/about/'},
+  {id:'isseido',name:'一誠堂書店',genre:'和書・洋書・古典籍',address:'神田神保町1-7',lat:35.69581,lng:139.75885,description:'和書・洋書から和本まで、幅広い研究資料を扱う古書店。大学や図書館、美術館などへの納本も手がけています。神保町が、散歩で本を楽しむ街であると同時に、研究を支える街でもあることを感じられる一軒です。',source:'https://abaj.gr.jp/shop_info.php?shopid=3'},
+  {id:'komiyama',name:'小宮山書店',genre:'写真集・アート・ファッション',address:'神田神保町1-7',lat:35.695778,lng:139.759197,description:'写真集や美術、ファッションなどの本を扱うお店。作品や展示も扱い、本とアートの両方に触れられます。読みたい本を探すだけでなく、ページや表紙のデザインに惹かれる一冊を探すのも楽しみ方のひとつです。',source:'https://www.book-komiyama.co.jp/about/shop.php'},
+  {id:'tamura',name:'田村書店',genre:'文学・哲学・仏独洋書',address:'神田神保町1-7',lat:35.695756,lng:139.759546,description:'日本書に加え、フランス語・ドイツ語の文学や哲学、挿絵本などの洋書を扱います。装丁や挿絵にも目を向けると、本を読むことと、本という物を味わうことの両方を楽しめます。',source:'https://www.kosho.or.jp/abouts/?id=12010180'},
+  {id:'ohya',name:'大屋書房',genre:'和本・古地図・浮世絵',address:'神田神保町1-1',lat:35.695637,lng:139.760563,description:'江戸時代の和本、古地図、浮世絵などを扱う専門店です。地図や絵に残された街を眺めると、いま歩いている東京とは異なる姿が見えてきます。江戸の人々の好奇心を、本を通じてたどってみましょう。',source:'https://ohya-shobo.com/'},
+  {id:'yamada',name:'山田書店 美術部',genre:'浮世絵・版画・美術書',address:'神田神保町1-8 山田ビル2F',lat:35.696185,lng:139.758809,description:'浮世絵や版画、美術書を扱う専門店。本の街には、紙に刷られた絵を探す楽しみもあります。線や色、構図に目を向けながら、一枚の作品が語る時代や風景を味わってみてください。',source:'https://www.yamada-shoten.com/'},
+  {id:'wonder',name:'＠ワンダー',genre:'SF・ミステリ・映画・サブカルチャー',address:'神田神保町2-5-4 開拓社ビル1・2F',lat:35.695727,lng:139.756343,description:'SF、ミステリ、映画関連品などが集まる古書店。小説だけでなく、雑誌やパンフレットといった紙の資料からも、かつて夢中になった文化をたどれます。好きなジャンルを手がかりに、思いがけない一冊を探す寄り道に。',source:'https://www.kosho.or.jp/abouts/?id=12011430'}
+];
+const $ = id => document.getElementById(id);
+let map, selected = null, watchId = null, userMarker, accuracyCircle, latestPosition, follow = false;
+const markers = [];
+const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+function announce(message) { $('status').textContent = message; $('status').hidden = false; }
+function setPanel(open) { $('panel').classList.toggle('open',open); $('panel-body').hidden = !open; $('panel-toggle').setAttribute('aria-expanded',String(open)); if(map) setTimeout(()=>{map.invalidateSize();if(selected===null)overview();},0); }
+function icon(i) { return L.divIcon({className:'book-marker',html:`<span class="pin${selected===i?' active':''}">${i+1}</span>`,iconSize:[30,30],iconAnchor:[15,15]}); }
+function paint() {
+  $('shops').innerHTML = shops.map((s,i)=>`<button class="shop-row" data-index="${i}"><span class="number">${i+1}</span><span class="row-text"><strong>${s.name}</strong><small>${s.genre}</small></span><span class="row-arrow" aria-hidden="true">›</span></button>`).join('');
+  markers.forEach((m,i)=>{m.setIcon(icon(i));m.setZIndexOffset(selected===i?1000:0);m.getElement()?.setAttribute('aria-label',`${i+1} ${shops[i].name}`);});
+}
+function showList() { selected=null; $('list-view').hidden=false; $('detail-view').hidden=true; paint(); $('panel-body').scrollTop=0; }
+function showShop(i,focus=false) {
+  selected=i; const s=shops[i]; setPanel(true); $('list-view').hidden=true; $('detail-view').hidden=false;
+  $('detail-view').innerHTML=`<div class="detail-content"><button class="back" id="back">← 古書店一覧</button><div class="detail-title"><span class="number">${i+1}</span><h2 tabindex="-1">${s.name}</h2></div><span class="tag">${s.genre}</span><p class="intro">${s.description}</p><p class="detail-address">東京都千代田区${s.address}<br>営業時間・休業日は下の店舗情報でご確認ください。</p><a class="source-link" href="${s.source}" target="_blank" rel="noopener noreferrer">店舗情報・確認元 ↗</a></div>`;
+  $('back').onclick=()=>{showList();$('shops').querySelector(`[data-index="${i}"]`).focus();};
+  $('panel-body').scrollTop=0; paint();
+  if(map){follow=false;const size=map.getSize(); const pixel=map.project([s.lat,s.lng],18);pixel.y+=window.innerWidth<760?-size.y*.20:0;pixel.x+=window.innerWidth>=760?-170:0;map.setView(map.unproject(pixel,18),18,{animate:!reducedMotion});}
+  if(focus)$('detail-view').querySelector('h2').focus({preventScroll:true});
+}
+function overview() {
+  if(!map)return;follow=false;
+  const bottom=window.innerWidth<760?$('panel').getBoundingClientRect().height+24:35;
+  map.fitBounds(L.latLngBounds(shops.map(s=>[s.lat,s.lng])),{paddingTopLeft:[window.innerWidth>=760?405:30,110],paddingBottomRight:[85,bottom],maxZoom:17,animate:!reducedMotion});
+}
+function stopLocation(message) {if(watchId!==null)navigator.geolocation.clearWatch(watchId);watchId=null;follow=false;$('locate').setAttribute('aria-pressed','false');if(message)announce(message);}
+function locate() {
+  if(!map){announce('地図を読み込めません。通信状態を確認して再読み込みしてください。');return;}
+  if(watchId!==null){stopLocation('現在地の更新を停止しました。');return;}
+  if(!window.isSecureContext){announce('現在地はHTTPSの公開URL、またはlocalhostで利用できます。');return;}
+  if(!navigator.geolocation){announce('このブラウザは現在地表示に対応していません。');return;}
+  follow=true;$('locate').setAttribute('aria-pressed','true');announce('現在地を取得しています。位置情報の利用を許可してください。');
+  watchId=navigator.geolocation.watchPosition(position=>{
+    latestPosition=[position.coords.latitude,position.coords.longitude];const accuracy=position.coords.accuracy;
+    if(!userMarker){accuracyCircle=L.circle(latestPosition,{radius:accuracy,color:'#3979d6',weight:1,fillOpacity:.09,interactive:false}).addTo(map);userMarker=L.circleMarker(latestPosition,{radius:7,color:'white',weight:3,fillColor:'#3979d6',fillOpacity:1}).bindTooltip('現在地').addTo(map);}else{userMarker.setLatLng(latestPosition);accuracyCircle.setLatLng(latestPosition).setRadius(accuracy);}
+    if(follow)map.setView(latestPosition,17,{animate:!reducedMotion});
+    const outside=map.distance(latestPosition,[35.6958,139.7575])>3000;
+    announce(`現在地を表示中（精度 約${Math.round(accuracy)}m）。${outside?'神保町の外にいます。「全体」で古書店の地図へ戻れます。':'地図を動かすと自動追従を止めます。'} もう一度押すと更新停止。`);
+  },error=>stopLocation(error.code===1?'位置情報が許可されていません。ブラウザのサイト設定で許可すると利用できます。':error.code===3?'現在地の取得に時間がかかっています。屋外で「現在地」を押して再試行してください。':'現在地を取得できませんでした。端末の位置情報設定を確認してください。'),{enableHighAccuracy:true,timeout:20000,maximumAge:10000});
+}
+$('panel-toggle').onclick=()=>setPanel(!$('panel').classList.contains('open'));
+$('shops').onclick=e=>{const b=e.target.closest('[data-index]');if(b)showShop(Number(b.dataset.index),true);};
+$('overview').onclick=overview;$('locate').onclick=locate;
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(selected!==null)showList();else setPanel(false);$('panel-toggle').focus();}});
+window.addEventListener('pagehide',()=>stopLocation());
+window.addEventListener('resize',()=>{if(map)map.invalidateSize();});
+paint();
+if(window.L){
+  map=L.map('map',{zoomControl:false}).setView([35.6958,139.7575],16);
+  L.control.zoom({position:'topright'}).addTo(map);L.control.scale({imperial:false,position:'bottomleft'}).addTo(map);
+  let tileFailures=0;const tiles=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+  tiles.on('tileerror',()=>{if(++tileFailures===3)announce('背景地図を読み込めません。通信状態を確認してください。古書店一覧は利用できます。');});
+  shops.forEach((s,i)=>{const m=L.marker([s.lat,s.lng],{icon:icon(i),title:s.name,keyboard:true}).addTo(map).bindTooltip(s.name,{direction:'top',offset:[0,-15],className:'map-tooltip'}).on('click',()=>showShop(i,true));markers.push(m);});
+  map.on('dragstart',()=>{follow=false;});paint();overview();
+}else{announce('地図を読み込めませんでした。通信状態を確認して再読み込みしてください。古書店一覧は利用できます。');setPanel(true);}
+if(window.innerWidth>=760)setPanel(true);
+
+});</script>
 </body>
 </html>
