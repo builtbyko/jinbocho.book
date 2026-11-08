@@ -138,3 +138,21 @@
 - 神田教会｜所在地と交通案内：https://catholickandachurch.org/contact/access/
 - 位置の参考：https://mapfan.com/spots/S5CY5,J,WHJR80
 
+
+
+# 前作の白地図の活用（2026年11月8日）
+
+参照したユーザーのマップ：https://builtbyko.github.io/jinbocho/
+実装：https://github.com/builtbyko/jinbocho/blob/main/src/MapView.tsx
+データの作成方法：https://github.com/builtbyko/jinbocho/blob/main/docs/methodology.md
+
+- 建物：東京都「令和3年度区部土地利用現況調査」の建物現況を神田神保町一〜三丁目で切り出し、WGS84に変換した前作データ。2021年度の形状であり、現況や竣工年の資料ではない。
+- 道路・歩道・通り名：© OpenStreetMap contributors（ODbL）。前作の作図済みデータを使用。道路幅は道路種別等から作図された目安で、土地境界や実際の歩道幅を示さない。
+- 町丁目：国勢調査町丁・字等別境界データセット（CODH作成）、CC BY 4.0。https://geoshape.ex.nii.ac.jp/ka/
+- 元のGeoJSONと出典属性は data/ に保存。各地点の確定した歴史説明はこのマップの調査内容を維持。
+- 13地点について同名施設を前作データで一意に対応できたため、その地点位置・建物IDを利用。誠心堂書店は同名地点が複数あり、神田教会は対象範囲外のため、建物との対応は推定しない。
+- 建物の色は掲載場所との対応を表す。一棟全体の用途や建築年代を示さない。
+
+元データ：https://github.com/builtbyko/jinbocho/tree/main/public/data
+東京都調査：https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000019
+OSMライセンス：https://www.openstreetmap.org/copyright

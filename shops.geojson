@@ -35,8 +35,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.75635,
-          35.69559
+          139.7563252,
+          35.6957004
         ]
       },
       "properties": {
@@ -54,7 +54,9 @@
             "url": "https://abaj.gr.jp/shop_info.php?shopid=8"
           }
         ],
-        "category": "古書店"
+        "category": "古書店",
+        "buildingId": "building-1691109",
+        "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson"
       }
     },
     {
@@ -62,8 +64,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.75701,
-          35.69573
+          139.7570282,
+          35.6957383
         ]
       },
       "properties": {
@@ -86,7 +88,9 @@
             "url": "https://visit-chiyoda.tokyo/app/spot/detail/512"
           }
         ],
-        "category": "古書店"
+        "category": "古書店",
+        "buildingId": "building-1695963",
+        "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson"
       }
     },
     {
@@ -94,8 +98,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.75885,
-          35.69581
+          139.7588467,
+          35.6958084
         ]
       },
       "properties": {
@@ -118,7 +122,9 @@
             "url": "https://www.isseido-books.co.jp/building/"
           }
         ],
-        "category": "古書店"
+        "category": "古書店",
+        "buildingId": "building-1694654",
+        "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson"
       }
     },
     {
@@ -126,8 +132,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.759197,
-          35.695778
+          139.7595572,
+          35.6958262
         ]
       },
       "properties": {
@@ -145,7 +151,9 @@
             "url": "https://www.book-komiyama.co.jp/about/index.php"
           }
         ],
-        "category": "古書店"
+        "category": "古書店",
+        "buildingId": "building-1694682",
+        "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson"
       }
     },
     {
@@ -153,8 +161,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.759546,
-          35.695756
+          139.7595044,
+          35.6958268
         ]
       },
       "properties": {
@@ -176,7 +184,9 @@
             "url": "https://www.kosho.or.jp/abouts/?id=12010180"
           }
         ],
-        "category": "古書店"
+        "category": "古書店",
+        "buildingId": "building-1694646",
+        "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson"
       }
     },
     {
@@ -184,8 +194,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.760563,
-          35.695637
+          139.7605077,
+          35.6958528
         ]
       },
       "properties": {
@@ -211,7 +221,9 @@
             "url": "https://www.ohya-shobo.com/store/"
           }
         ],
-        "category": "古書店"
+        "category": "古書店",
+        "buildingId": "building-1694648",
+        "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson"
       }
     },
     {
@@ -219,8 +231,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.758809,
-          35.696185
+          139.7588155,
+          35.6961513
         ]
       },
       "properties": {
@@ -243,7 +255,9 @@
             "url": "https://abaj.gr.jp/shop_info.php?shopid=25"
           }
         ],
-        "category": "古書店"
+        "category": "古書店",
+        "buildingId": "building-1694633",
+        "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson"
       }
     },
     {
@@ -251,8 +265,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.756343,
-          35.695727
+          139.7561963,
+          35.6957218
         ]
       },
       "properties": {
@@ -270,7 +284,9 @@
             "url": "https://www.kosho.or.jp/abouts/?id=12011430"
           }
         ],
-        "category": "古書店"
+        "category": "古書店",
+        "buildingId": "building-1691108",
+        "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson"
       }
     },
     {
@@ -278,8 +294,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.760204,
-          35.69581
+          139.7602271,
+          35.695831
         ]
       },
       "properties": {
@@ -302,7 +318,8 @@
             "url": "https://www.kosho.or.jp/abouts/?id=12010090"
           }
         ],
-        "coordinateSource": "https://www.kosho.or.jp/abouts/?id=12010090"
+        "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson",
+        "buildingId": "building-1694658"
       }
     },
     {
@@ -310,8 +327,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.759881,
-          35.6957
+          139.759977,
+          35.6958427
         ]
       },
       "properties": {
@@ -334,7 +351,8 @@
             "url": "https://www.kosho.or.jp/abouts/?id=12010110"
           }
         ],
-        "coordinateSource": "https://www.kosho.or.jp/abouts/?id=12010110"
+        "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson",
+        "buildingId": "building-1694657"
       }
     },
     {
@@ -342,8 +360,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.76112,
-          35.6952
+          139.7611147,
+          35.6951991
         ]
       },
       "properties": {
@@ -367,7 +385,8 @@
             "url": "https://osanpo-jimbo.com/info/5002135"
           }
         ],
-        "coordinateSource": "https://mapcarta.com/N3881341809"
+        "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson",
+        "buildingId": "building-1694725"
       }
     },
     {
@@ -375,8 +394,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.760936,
-          35.69531
+          139.7609316,
+          35.6952732
         ]
       },
       "properties": {
@@ -400,7 +419,8 @@
             "url": "https://www.city.chiyoda.lg.jp/documents/4200/13-bumbodobiru-r405.pdf"
           }
         ],
-        "coordinateSource": "https://visit-chiyoda.tokyo/app/spot/detail/111"
+        "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson",
+        "buildingId": "building-1694724"
       }
     },
     {
@@ -408,8 +428,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.75862,
-          35.695561
+          139.7586758,
+          35.6955733
         ]
       },
       "properties": {
@@ -433,7 +453,8 @@
             "url": "https://www.gltjp.com/ja/directory/item/14176/"
           }
         ],
-        "coordinateSource": "https://visit-chiyoda.tokyo/app/spot/detail/482"
+        "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson",
+        "buildingId": "building-1694686"
       }
     },
     {

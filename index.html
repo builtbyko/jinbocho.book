@@ -10,6 +10,16 @@
   <style>:root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif;color:#24352e;background:#e8ece6;--green:#244f42;--muted:#6c7771;--line:#e5e9e4}*{box-sizing:border-box}body{margin:0}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;color:inherit;cursor:pointer}button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #bb8a39;outline-offset:3px}button{border:0;background:white}main,#map{position:absolute;inset:0}#map{z-index:0}h1{font-size:17px;letter-spacing:.03em;margin:0;font-weight:700}.title-card{position:absolute;top:max(16px,env(safe-area-inset-top));left:16px;display:flex;align-items:center;gap:12px;background:#fff;padding:14px 18px;border-radius:12px;box-shadow:0 3px 18px #17382a18;z-index:500}.title-card p{margin:5px 0 0;font-size:11px;letter-spacing:.1em;color:var(--muted)}.book-icon{font-size:32px;color:var(--green);line-height:1}.map-tools{position:absolute;right:16px;top:110px;z-index:500;display:grid;gap:10px}.map-tools button{width:54px;min-height:58px;display:grid;place-content:center;justify-items:center;gap:4px;border-radius:12px;box-shadow:0 2px 12px #17382a20;font-size:10px}.map-tools svg{width:23px;height:23px;fill:none;stroke:var(--green);stroke-width:1.8}.map-tools button[aria-pressed=true]{background:var(--green);color:white}.map-tools button[aria-pressed=true] svg{stroke:white}.panel{position:absolute;z-index:600;bottom:0;left:0;right:0;background:white;border-radius:20px 20px 0 0;box-shadow:0 -4px 30px #17382a18;max-height:52dvh;display:flex;flex-direction:column;padding-bottom:env(safe-area-inset-bottom)}.panel-toggle{position:relative;display:flex;align-items:center;gap:12px;min-height:79px;padding:26px 22px 17px;border-radius:20px 20px 0 0;flex:none;width:100%;text-align:left}.grip{position:absolute;top:9px;width:34px;height:4px;background:#d9dfd9;border-radius:5px;left:calc(50% - 17px)}.panel-label{font-weight:650;font-size:15px}.count{color:var(--muted);font-weight:400;font-size:11px;margin-left:8px}#progress{font-size:11px;margin-left:auto;color:var(--muted)}.chevron{font-size:20px;color:var(--green)}.panel.open .chevron{transform:rotate(180deg)}#panel-body{overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin}.list-head{display:flex;align-items:center;justify-content:space-between;padding:3px 22px 14px;gap:8px}.list-head p{font-size:11px;color:var(--muted);margin:0}.list-head button{font-size:11px;padding:9px 10px;border:1px solid var(--line);border-radius:8px;white-space:nowrap}.list-head button[aria-pressed=true]{color:var(--green);background:#edf4ee;border-color:#c3d3c7}.shop-row{display:flex;align-items:center;border-top:1px solid var(--line);width:100%;gap:14px;padding:16px 22px;text-align:left}.number{display:grid;place-items:center;width:30px;height:30px;border:1px solid #c4d1c9;border-radius:50%;color:var(--green);font-size:12px;flex:none}.shop-row.visited .number{background:var(--green);border-color:var(--green);color:white}.row-text{flex:1;min-width:0}.row-text strong{font-size:14px;font-weight:600;display:block}.row-text small{display:block;color:var(--muted);font-size:11px;margin-top:5px}.row-arrow{color:#9aa69e}.shop-row:hover{background:#f6f8f4}.note{font-size:11px;line-height:1.8;color:var(--muted);padding:0 22px 14px;margin:0}.about{font-size:11px;color:var(--muted);padding:18px 22px 24px;border-top:1px solid var(--line);line-height:1.9}.about summary{cursor:pointer}.about button{padding:7px 10px;border:1px solid var(--line);border-radius:6px;font-size:11px}.detail-content{padding:0 22px 24px}.back{font-size:12px;color:var(--muted);padding:2px 0 15px;display:inline-block}.detail-title{display:flex;align-items:center;gap:12px}.detail-title h2{margin:0;font-size:22px;letter-spacing:.04em}.tag{font-size:11px;display:inline-block;color:var(--green);background:#eff3ee;padding:5px 9px;border-radius:5px;margin:14px 0 8px}.intro{font-size:13px;line-height:1.95;margin:6px 0 14px}.detail-address{font-size:11px;color:var(--muted);line-height:1.8;margin:10px 0}.detail-actions{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:16px 0}.detail-actions a,.detail-actions button{display:flex;align-items:center;justify-content:center;padding:13px 8px;min-height:46px;text-decoration:none;border:1px solid #c8d5cd;border-radius:8px;color:var(--green);font-size:12px}.detail-actions .primary{background:var(--green);color:white;border-color:var(--green)}.source-link{font-size:11px;color:var(--green)}.next{border-top:1px solid var(--line);padding-top:14px;margin-top:16px}.next button{width:100%;text-align:left;color:var(--green);font-size:12px;padding:7px 0}#status{position:absolute;z-index:650;top:100px;left:16px;right:86px;max-width:420px;background:#fff;padding:12px 14px;border-radius:9px;box-shadow:0 2px 12px #17382a20;line-height:1.7;font-size:12px;margin:0}.book-marker{background:none;border:0}.pin{height:30px;width:30px;background:var(--green);border:2px solid white;border-radius:50%;display:grid;place-items:center;color:white;font:bold 12px/1 sans-serif;box-shadow:0 2px 6px #163d3a50;transition:transform .15s}.pin.active{background:#b17b34;transform:scale(1.2)}.pin.done{background:#6d8679}.map-tooltip{font-family:inherit;font-size:11px;border:0;box-shadow:0 2px 8px #17382a18;color:var(--green)}.start-marker{background:white;border:2px solid var(--green);border-radius:4px;width:14px;height:14px}.leaflet-control-attribution{font-size:9px!important}.leaflet-bottom{bottom:82px}.leaflet-control-zoom a{color:var(--green)!important}.no-script{position:absolute;top:130px;left:16px;right:16px;z-index:900;background:white;padding:20px}#reset-confirm{padding:10px;background:#f5f7f3;border-radius:6px}[hidden]{display:none!important}@media(min-width:760px){.title-card{top:24px;left:24px}.panel{left:24px;bottom:24px;right:auto;width:355px;border-radius:16px;max-height:calc(100dvh - 145px);padding-bottom:0}.panel-toggle{border-radius:16px;min-height:65px;padding:18px 20px}.grip{display:none}.panel-label{font-size:14px}.map-tools{top:24px;right:24px}.leaflet-bottom{bottom:0}.leaflet-top{top:170px}#status{top:105px;left:24px;right:auto;width:355px}.detail-title h2{font-size:20px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}@media(max-width:350px){h1{font-size:15px}.title-card{padding:12px}.count{display:none}.panel-toggle{padding-left:16px;padding-right:16px}.list-head{padding-left:16px;padding-right:16px}}
 
 .chevron{margin-left:auto}.dates{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0 22px;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.dates dt{font-size:10px;color:var(--muted);margin-bottom:6px}.dates dd{margin:0;font-size:13px;font-weight:600;line-height:1.7}.card-heading{font-size:12px;font-weight:600;margin:20px 0 5px;letter-spacing:.04em}.history-note{font-size:11px;color:var(--muted);line-height:1.9;background:#f5f7f3;padding:12px;border-radius:6px}.references{font-size:11px;color:var(--muted);border-top:1px solid var(--line);margin-top:18px;padding-top:14px;line-height:1.9}.references summary{cursor:pointer}.references a{display:block;color:var(--green);margin:10px 0}.title-card p{letter-spacing:.04em}
+
+.context-tiles{filter:grayscale(.72)}
+.pin{background:var(--place-color,#244f42)}.pin.active{background:#244f42;box-shadow:0 0 0 3px #fff,0 2px 8px #17382a55}
+.atlas-road-label span{position:absolute;white-space:nowrap;font-size:11px;letter-spacing:.06em;color:#59665e;text-shadow:0 1px 2px #fff,1px 0 2px #fff;pointer-events:none}
+.atlas-chome-label span{position:absolute;white-space:nowrap;transform:translate(-50%,-50%);font-size:16px;letter-spacing:.12em;color:#717b72;opacity:.65;text-shadow:0 1px 3px #faf9f5}
+#map:not(.atlas-wide) .atlas-chome-label{display:none}
+.atlas-place-label span{position:absolute;white-space:nowrap;max-width:160px;overflow:hidden;text-overflow:ellipsis;font-size:11px;line-height:22px;color:#26352f;background:#fffefaed;padding:0 5px;border-radius:3px;text-shadow:0 1px #fff;box-shadow:0 1px 3px #17382a10;transform:translate(19px,-10px)}
+.atlas-place-label.left span{transform:translate(calc(-100% - 19px),-10px)}
+.map-key{display:flex;flex-wrap:wrap;gap:14px;font-size:10px;color:var(--muted);padding:0 22px 14px}.map-key span:before{content:'';display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;background:var(--dot)}
+.leaflet-control-attribution{max-width:min(100vw,680px);line-height:1.5}
 </style>
   <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 
@@ -27,8 +37,8 @@
       <button id="panel-toggle" class="panel-toggle" aria-expanded="false" aria-controls="panel-body"><span class="grip" aria-hidden="true"></span><span class="panel-label">場所一覧 <span class="count">15か所</span></span><span class="chevron" aria-hidden="true">⌃</span></button>
       <div id="panel-body" hidden>
         <div id="list-view">
-          <div id="shops"></div>
-          <details class="about"><summary>神保町のこと・この地図について</summary><p>明治初期、周辺に多くの学校ができ、学生の教科書需要が高まったことが、神保町の本屋街の成長につながりました。</p><p><a class="source-link" href="https://www.edo-chiyoda.jp/bunkazaihogonotorikumi/bunkazaihogochosain/hogocho2019/1/366.html" target="_blank" rel="noopener noreferrer">千代田区文化財サイト｜本と学生の街 ↗</a></p><p>情報の確認日：2026年11月7日。創業年は店の始まり、竣工年は今の建物ができた年です。建築年未確認は、今回の資料で確かめられていないことを表します。出典は各場所のカードに掲載しています。営業時間や見学できる時間は、各場所の案内を確認してください。ピンは各場所の付近を示す目安です。</p><p>現在地は端末で表示するだけで、このサイトのサーバーへ送信・保存しません。地図表示にはインターネット接続が必要です。</p><p>地図：© OpenStreetMap contributors / 地図ライブラリ：Leaflet</p></details>
+          <div class="map-key" aria-label="ピンの色"><span style="--dot:#a6533c">古書店</span><span style="--dot:#4f7f78">喫茶店</span><span style="--dot:#a28b48">建物・施設</span></div><div id="shops"></div>
+          <details class="about"><summary>神保町のこと・この地図について</summary><p>明治初期、周辺に多くの学校ができ、学生の教科書需要が高まったことが、神保町の本屋街の成長につながりました。</p><p><a class="source-link" href="https://www.edo-chiyoda.jp/bunkazaihogonotorikumi/bunkazaihogochosain/hogocho2019/1/366.html" target="_blank" rel="noopener noreferrer">千代田区文化財サイト｜本と学生の街 ↗</a></p><p>情報の確認日：2026年11月7日。創業年は店の始まり、竣工年は今の建物ができた年です。建築年未確認は、今回の資料で確かめられていないことを表します。出典は各場所のカードに掲載しています。営業時間や見学できる時間は、各場所の案内を確認してください。ピンは各場所の付近を示す目安です。</p><p>現在地は端末で表示するだけで、このサイトのサーバーへ送信・保存しません。地図表示にはインターネット接続が必要です。</p><p>白地図は前作の神保町マップのデータを活用しています。建物形状は東京都の2021年度調査、町丁目はCODH、道路・歩道はOpenStreetMapに基づきます。道路幅や歩道の外縁は作図上の目安です。建物の色は掲載場所との対応を示し、一棟全体の用途や建築年代を表しません。<br>地図：© OpenStreetMap contributors / 東京都 / CODH（CC BY 4.0） / Leaflet</p></details>
         </div>
         <article id="detail-view" hidden></article>
       </div>
@@ -64,8 +74,8 @@ const shops = [
     "name": "北沢書店",
     "genre": "洋書・英米文学・人文科学",
     "address": "神田神保町2-5 北沢ビル2F",
-    "lat": 35.69559,
-    "lng": 139.75635,
+    "lat": 35.6957004,
+    "lng": 139.7563252,
     "description": "北澤弥三郎が現在地で創業。学校や図書館への納本を主な仕事として出発しました。1955年に、大学英文科の助教授だった2代目が継ぎ、洋書の専門店となりました。神保町と教育・研究のつながりが、店の歩みにも表れています。",
     "source": "https://abaj.gr.jp/shop_info.php?shopid=8",
     "founded": "1902年（明治35年）",
@@ -76,15 +86,17 @@ const shops = [
         "url": "https://abaj.gr.jp/shop_info.php?shopid=8"
       }
     ],
-    "category": "古書店"
+    "category": "古書店",
+    "buildingId": "building-1691109",
+    "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson"
   },
   {
     "id": "yaguchi",
     "name": "矢口書店",
     "genre": "映画・演劇・演芸",
     "address": "神田神保町2-5-1",
-    "lat": 35.69573,
-    "lng": 139.75701,
+    "lat": 35.6957383,
+    "lng": 139.7570282,
     "description": "錦町で創業し、1934年ごろ現在地へ移転。1975年ごろに映画・演劇を専門とする店へ変わりました。2023年には隣にも売場を広げ、音楽関係の品も扱うようになっています。現在地への移転年は、建物の建築年を示すものではありません。",
     "source": "https://yaguchishoten.jp/about/",
     "founded": "1918年（大正7年）",
@@ -100,15 +112,17 @@ const shops = [
         "url": "https://visit-chiyoda.tokyo/app/spot/detail/512"
       }
     ],
-    "category": "古書店"
+    "category": "古書店",
+    "buildingId": "building-1695963",
+    "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson"
   },
   {
     "id": "isseido",
     "name": "一誠堂書店",
     "genre": "和書・洋書・古典籍",
     "address": "神田神保町1-7",
-    "lat": 35.69581,
-    "lng": 139.75885,
+    "lat": 35.6958084,
+    "lng": 139.7588467,
     "description": "新潟県長岡で貸本屋などを営む「酒井書店」として創業し、1906年に神田へ、1913年に現在地へ移りました。神田の大火と関東大震災で焼け出された経験から、現在の店舗は木造ではなく鉄筋コンクリートで建てられました。",
     "source": "https://abaj.gr.jp/shop_info.php?shopid=3",
     "founded": "1903年（明治36年）",
@@ -124,15 +138,17 @@ const shops = [
         "url": "https://www.isseido-books.co.jp/building/"
       }
     ],
-    "category": "古書店"
+    "category": "古書店",
+    "buildingId": "building-1694654",
+    "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson"
   },
   {
     "id": "komiyama",
     "name": "小宮山書店",
     "genre": "写真集・アート・ファッション",
     "address": "神田神保町1-7",
-    "lat": 35.695778,
-    "lng": 139.759197,
+    "lat": 35.6958262,
+    "lng": 139.7595572,
     "description": "1939年に神田神保町で創立した古書店。現在は写真集、美術、ファッションなどの本に加え、写真作品やポスター、アート作品も扱います。神保町の古書商が、古い本を売買する仕事から写真・美術の展示や海外のブックフェアへと活動を広げている一例です。",
     "source": "https://www.book-komiyama.co.jp/about/shop.php",
     "founded": "1939年（昭和14年）",
@@ -143,15 +159,17 @@ const shops = [
         "url": "https://www.book-komiyama.co.jp/about/index.php"
       }
     ],
-    "category": "古書店"
+    "category": "古書店",
+    "buildingId": "building-1694682",
+    "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson"
   },
   {
     "id": "tamura",
     "name": "田村書店",
     "genre": "文学・哲学・仏独洋書",
     "address": "神田神保町1-7",
-    "lat": 35.695756,
-    "lng": 139.759546,
+    "lat": 35.6958268,
+    "lng": 139.7595044,
     "description": "1904年創業。専修大学の神保町古書店街の研究では、1964年以前は古書全般を扱う店として整理されています。現在は日本の文学書や、フランス語・ドイツ語の文学・哲学などの洋書を扱い、挿絵本や装丁本も専門分野に含まれます。",
     "source": "https://www.kosho.or.jp/abouts/?id=12010180",
     "founded": "1904年（明治37年）",
@@ -166,15 +184,17 @@ const shops = [
         "url": "https://www.kosho.or.jp/abouts/?id=12010180"
       }
     ],
-    "category": "古書店"
+    "category": "古書店",
+    "buildingId": "building-1694646",
+    "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson"
   },
   {
     "id": "ohya",
     "name": "大屋書房",
     "genre": "和本・古地図・浮世絵",
     "address": "神田神保町1-1",
-    "lat": 35.695637,
-    "lng": 139.760563,
+    "lat": 35.6958528,
+    "lng": 139.7605077,
     "description": "明治15年創業。江戸時代の和本・浮世絵・古地図を扱う店で、駿河台下交差点のそばにあります。かつては出版も手がけ、大屋書房の名で刊行した本も残っています。古い地図や版本を通じて、江戸の地理や暮らしを伝えてきた書店です。",
     "source": "https://ohya-shobo.com/",
     "founded": "1882年（明治15年）",
@@ -193,15 +213,17 @@ const shops = [
         "url": "https://www.ohya-shobo.com/store/"
       }
     ],
-    "category": "古書店"
+    "category": "古書店",
+    "buildingId": "building-1694648",
+    "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson"
   },
   {
     "id": "yamada",
     "name": "山田書店 美術部",
     "genre": "浮世絵・版画・美術書",
     "address": "神田神保町1-8 山田ビル2・3F",
-    "lat": 35.696185,
-    "lng": 139.758809,
+    "lat": 35.6961513,
+    "lng": 139.7588155,
     "description": "店の公式案内では、山田朝一が1936年に開業。当初は文学書の初版本を中心に扱い、浮世絵研究家・石井研堂の勧めで浮世絵も扱うようになりました。その後、新版画・創作版画へと分野が広がっています。",
     "source": "https://www.yamada-shoten.com/",
     "founded": "1936年（昭和11年）※店公式",
@@ -217,15 +239,17 @@ const shops = [
         "url": "https://abaj.gr.jp/shop_info.php?shopid=25"
       }
     ],
-    "category": "古書店"
+    "category": "古書店",
+    "buildingId": "building-1694633",
+    "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson"
   },
   {
     "id": "wonder",
     "name": "＠ワンダー",
     "genre": "SF・ミステリ・映画・サブカルチャー",
     "address": "神田神保町2-5-4 開拓社ビル1・2F",
-    "lat": 35.695727,
-    "lng": 139.756343,
+    "lat": 35.6957218,
+    "lng": 139.7561963,
     "description": "映画関連品、SF、ミステリなどを扱う古書店。「二十世紀記憶装置」を店のキーワードに掲げています。本だけでなく映画の資料やサブカルチャーの品々を通じて、20世紀の大衆文化を伝える店です。創業年と建物の建築年は、今回の確認資料では確かめられていません。",
     "source": "https://www.kosho.or.jp/abouts/?id=12011430",
     "founded": "創業年未確認",
@@ -236,7 +260,9 @@ const shops = [
         "url": "https://www.kosho.or.jp/abouts/?id=12011430"
       }
     ],
-    "category": "古書店"
+    "category": "古書店",
+    "buildingId": "building-1691108",
+    "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson"
   },
   {
     "id": "gyokueido",
@@ -244,8 +270,8 @@ const shops = [
     "genre": "稀覯本・文学初版本・文人の筆跡",
     "category": "古書店",
     "address": "神田神保町1-1",
-    "lat": 35.69581,
-    "lng": 139.760204,
+    "lat": 35.695831,
+    "lng": 139.7602271,
     "founded": "1902年（明治35年）",
     "built": "建築年未確認",
     "description": "本郷湯島天神下で古本と貸本の店として創業し、1926年から神田神保町で営業しています。古写本や古版本、文学作品の初版本、文豪の草稿や書簡などを扱う書店です。書かれた内容だけでなく、著者の筆跡や本そのものの成り立ちを伝える資料が集まります。",
@@ -260,7 +286,8 @@ const shops = [
         "url": "https://www.kosho.or.jp/abouts/?id=12010090"
       }
     ],
-    "coordinateSource": "https://www.kosho.or.jp/abouts/?id=12010090"
+    "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson",
+    "buildingId": "building-1694658"
   },
   {
     "id": "yukyudo",
@@ -268,8 +295,8 @@ const shops = [
     "genre": "美術・料理・山岳・動植物",
     "category": "古書店",
     "address": "神田神保町1-3-2",
-    "lat": 35.6957,
-    "lng": 139.759881,
+    "lat": 35.6958427,
+    "lng": 139.759977,
     "founded": "1915年（大正4年）",
     "built": "建築年未確認",
     "description": "1915年にこの地で開業。当初は、周辺の大学に通う学生向けの教科書販売が中心でした。2代目は山岳・動植物、3代目は食文化、4代目は美術へと、代を重ねるごとに取扱分野を増やしてきました。店ごとに専門が分かれる神保町の変化が、一軒の書棚の歩みにも表れています。",
@@ -284,7 +311,8 @@ const shops = [
         "url": "https://www.kosho.or.jp/abouts/?id=12010110"
       }
     ],
-    "coordinateSource": "https://www.kosho.or.jp/abouts/?id=12010110"
+    "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson",
+    "buildingId": "building-1694657"
   },
   {
     "id": "nanyodo",
@@ -292,8 +320,8 @@ const shops = [
     "genre": "建築・都市・デザイン",
     "category": "古書店",
     "address": "神田神保町1-21",
-    "lat": 35.6952,
-    "lng": 139.76112,
+    "lat": 35.6951991,
+    "lng": 139.7611147,
     "founded": "1926年（取材資料による）",
     "built": "1980年（昭和55年）",
     "description": "建築の新刊・古書・洋書を扱う専門書店。地域紙が店員に行った取材では、創業を1926年としています。近隣大学の建築学科とのつながりを背景に、建築分野を専門とする店へ変わっていきました。",
@@ -309,7 +337,8 @@ const shops = [
         "url": "https://osanpo-jimbo.com/info/5002135"
       }
     ],
-    "coordinateSource": "https://mapcarta.com/N3881341809"
+    "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson",
+    "buildingId": "building-1694725"
   },
   {
     "id": "bumpodo",
@@ -317,8 +346,8 @@ const shops = [
     "genre": "画材・スクラッチタイルの外壁",
     "category": "画材店・建物",
     "address": "神田神保町1-21-1",
-    "lat": 35.69531,
-    "lng": 139.760936,
+    "lat": 35.6952732,
+    "lng": 139.7609316,
     "founded": "1887年（明治20年）",
     "built": "1922年の外壁を保存／1990年改築",
     "description": "小川町の中西屋書店の一部を借りて創業した画材店。1906年に現在のすずらん通りへ移り、1921年には専門家向けの国産油絵具を製造・販売しました。本の街には、絵を描く人のための道具を届けてきた店も残っています。",
@@ -334,7 +363,8 @@ const shops = [
         "url": "https://www.city.chiyoda.lg.jp/documents/4200/13-bumbodobiru-r405.pdf"
       }
     ],
-    "coordinateSource": "https://visit-chiyoda.tokyo/app/spot/detail/111"
+    "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson",
+    "buildingId": "building-1694724"
   },
   {
     "id": "sabouru",
@@ -342,8 +372,8 @@ const shops = [
     "genre": "喫茶店・路地と店内の造り",
     "category": "喫茶店",
     "address": "神田神保町1-11",
-    "lat": 35.695561,
-    "lng": 139.75862,
+    "lat": 35.6955733,
+    "lng": 139.7586758,
     "founded": "1955年（昭和30年）",
     "built": "建築年未確認",
     "description": "神保町駅近くの路地にある、1955年創業の喫茶店。店名はスペイン語の「味」に由来します。創業時のオーナーが内装の構想にも関わり、木彫りの品々が置かれた独特の店内をつくりました。",
@@ -359,7 +389,8 @@ const shops = [
         "url": "https://www.gltjp.com/ja/directory/item/14176/"
       }
     ],
-    "coordinateSource": "https://visit-chiyoda.tokyo/app/spot/detail/482"
+    "coordinateSource": "https://github.com/builtbyko/jinbocho/blob/main/public/data/places.geojson",
+    "buildingId": "building-1694686"
   },
   {
     "id": "kandachurch",
@@ -393,20 +424,22 @@ const shops = [
 const $ = id => document.getElementById(id);
 let map, selected = null, watchId = null, userMarker, accuracyCircle, latestPosition, follow = false;
 const markers = [];
+let atlasBuildings, selectedOutline, placeLabels, roadLabels, chomeLabels;
+const placeColor = s => s.category==='古書店'?'#a6533c':s.category==='喫茶店'?'#4f7f78':'#a28b48';
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 function announce(message) { $('status').textContent = message; $('status').hidden = false; }
 function setPanel(open) { $('panel').classList.toggle('open',open); $('panel-body').hidden = !open; $('panel-toggle').setAttribute('aria-expanded',String(open)); if(map) setTimeout(()=>{map.invalidateSize();if(selected===null)overview();},0); }
-function icon(i) { return L.divIcon({className:'book-marker',html:`<span class="pin${selected===i?' active':''}">${i+1}</span>`,iconSize:[30,30],iconAnchor:[15,15]}); }
+function icon(i) { return L.divIcon({className:'book-marker',html:`<span style="--place-color:${placeColor(shops[i])}" class="pin${selected===i?' active':''}">${i+1}</span>`,iconSize:[30,30],iconAnchor:[15,15]}); }
 function paint() {
   $('shops').innerHTML = shops.map((s,i)=>`<button class="shop-row" data-index="${i}"><span class="number">${i+1}</span><span class="row-text"><strong>${s.name}</strong><small>${s.category} · ${s.genre}</small></span><span class="row-arrow" aria-hidden="true">›</span></button>`).join('');
   markers.forEach((m,i)=>{m.setIcon(icon(i));m.setZIndexOffset(selected===i?1000:0);m.getElement()?.setAttribute('aria-label',`${i+1} ${shops[i].name}`);});
 }
-function showList() { selected=null; $('list-view').hidden=false; $('detail-view').hidden=true; paint(); $('panel-body').scrollTop=0; }
+function showList() { selected=null;if(selectedOutline)selectedOutline.clearLayers(); $('list-view').hidden=false; $('detail-view').hidden=true; paint(); $('panel-body').scrollTop=0; }
 function showShop(i,focus=false) {
   selected=i; const s=shops[i]; setPanel(true); $('list-view').hidden=true; $('detail-view').hidden=false;
   $('detail-view').innerHTML=`<div class="detail-content"><button class="back" id="back">← 場所一覧</button><div class="detail-title"><span class="number">${i+1}</span><h2 tabindex="-1">${s.name}</h2></div><span class="tag">${s.genre}</span><dl class="dates"><div><dt>${s.foundedLabel || '店の創業'}</dt><dd>${s.founded}</dd></div><div><dt>建物の竣工</dt><dd>${s.built}</dd></div></dl><h3 class="card-heading">この場所の歴史</h3><p class="intro">${s.description}</p>${s.building?`<h3 class="card-heading">建物について</h3><p class="intro">${s.building}</p>`:''}${s.historyNote?`<p class="history-note">${s.historyNote}</p>`:''}<p class="detail-address">東京都千代田区${s.address}<br>${s.visitNote || '営業時間・休業日は下の案内でご確認ください。'}</p><a class="source-link" href="${s.source}" target="_blank" rel="noopener noreferrer">${s.infoLabel || '案内・店舗情報'} ↗</a><details class="references"><summary>出典</summary>${s.references.map(r=>`<a href="${r.url}" target="_blank" rel="noopener noreferrer">${r.label} ↗</a>`).join('')}</details></div>`;
   $('back').onclick=()=>{showList();$('shops').querySelector(`[data-index="${i}"]`).focus();};
-  $('panel-body').scrollTop=0; paint();
+  $('panel-body').scrollTop=0; paint(); highlightBuilding(s);
   if(map){follow=false;const size=map.getSize(); const pixel=map.project([s.lat,s.lng],18);pixel.y+=window.innerWidth<760?size.y*.20:0;pixel.x+=window.innerWidth>=760?-170:0;map.setView(map.unproject(pixel,18),18,{animate:!reducedMotion});}
   if(focus)$('detail-view').querySelector('h2').focus({preventScroll:true});
 }
@@ -430,6 +463,83 @@ function locate() {
     announce(`現在地を表示中（精度 約${Math.round(accuracy)}m）。${outside?'神保町の外にいます。「全体」で古書店の地図へ戻れます。':'地図を動かすと自動追従を止めます。'} もう一度押すと更新停止。`);
   },error=>stopLocation(error.code===1?'位置情報が許可されていません。ブラウザのサイト設定で許可すると利用できます。':error.code===3?'現在地の取得に時間がかかっています。屋外で「現在地」を押して再試行してください。':'現在地を取得できませんでした。端末の位置情報設定を確認してください。'),{enableHighAccuracy:true,timeout:20000,maximumAge:10000});
 }
+// Reuse the reference map's building footprints, streets, sidewalks and chome.
+async function loadAtlasBasemap() {
+  const names=['boundary','basemap-roads','basemap-sidewalks','basemap-road-names','buildings'];
+  try {
+    const [boundary,roads,sidewalks,roadNames,buildings]=await Promise.all(names.map(async name=>{
+      const response=await fetch(`data/${name}.geojson`);
+      if(!response.ok)throw new Error(name);
+      return response.json();
+    }));
+    atlasBuildings=buildings;
+    const pane=(name,z)=>{map.createPane(name);map.getPane(name).style.zIndex=z;map.getPane(name).style.pointerEvents='none';return L.canvas({pane:name});};
+    const groundRenderer=pane('atlasGround',210),roadRenderer=pane('atlasRoads',220),walkRenderer=pane('atlasWalks',230),buildingRenderer=pane('atlasBuildings',240);
+    const layer=(data,renderer,style)=>L.geoJSON(data,{renderer,interactive:false,style}).addTo(map);
+    layer(boundary,groundRenderer,{fillColor:'#faf9f5',fillOpacity:1,stroke:false});
+    layer(roads,roadRenderer,{fillColor:'#e9ebe8',fillOpacity:1,color:'#cfd3cf',opacity:.85,weight:.7});
+    layer(sidewalks,walkRenderer,{fillColor:'#fbfaf7',fillOpacity:1,color:'#d8dbd6',weight:.55});
+    const occupants=new Map(shops.filter(s=>s.buildingId).map(s=>[s.buildingId,s]));
+    layer(buildings,buildingRenderer,feature=>{
+      const place=occupants.get(feature.properties.id);
+      return {fillColor:place?placeColor(place):'#dadbd6',fillOpacity:place?.85:.96,color:'#717a73',opacity:.48,weight:.7};
+    });
+    const selectedRenderer=pane('atlasSelected',250);
+    selectedOutline=L.geoJSON(null,{renderer:selectedRenderer,interactive:false,style:{fill:false,color:'#244f42',weight:3,opacity:1}}).addTo(map);
+    map.createPane('atlasText');map.getPane('atlasText').style.zIndex=350;map.getPane('atlasText').style.pointerEvents='none';
+    roadLabels=L.layerGroup().addTo(map);chomeLabels=L.layerGroup().addTo(map);placeLabels=L.layerGroup().addTo(map);
+    for(const feature of roadNames.features){
+      const coordinates=feature.geometry.type==='LineString'?feature.geometry.coordinates:feature.geometry.coordinates[0];
+      const lengths=coordinates.slice(1).map((p,i)=>map.distance([coordinates[i][1],coordinates[i][0]],[p[1],p[0]]));
+      let distance=lengths.reduce((a,b)=>a+b,0)/2,index=0;
+      while(index<lengths.length-1&&distance>lengths[index])distance-=lengths[index++];
+      const a=coordinates[index],b=coordinates[index+1];if(!b)continue;
+      const fraction=lengths[index]?distance/lengths[index]:0;
+      const point=[a[1]+(b[1]-a[1])*fraction,a[0]+(b[0]-a[0])*fraction];
+      const pa=map.project([a[1],a[0]],18),pb=map.project([b[1],b[0]],18);
+      let angle=Math.atan2(pb.y-pa.y,pb.x-pa.x)*180/Math.PI;if(angle>90)angle-=180;if(angle<-90)angle+=180;
+      L.marker(point,{interactive:false,keyboard:false,pane:'atlasText',icon:L.divIcon({className:'atlas-road-label',html:`<span style="transform:translate(-50%,-50%) rotate(${angle}deg)">${feature.properties.name}</span>`,iconSize:[0,0]})}).addTo(roadLabels);
+    }
+    for(const feature of boundary.features){
+      const center=L.geoJSON(feature).getBounds().getCenter();
+      const name=feature.properties.name.replace('神田神保町','');
+      L.marker(center,{interactive:false,keyboard:false,pane:'atlasText',icon:L.divIcon({className:'atlas-chome-label',html:`<span>${name}</span>`,iconSize:[0,0]})}).addTo(chomeLabels);
+    }
+    map.attributionControl.addAttribution('<a href="https://catalog.data.metro.tokyo.lg.jp/dataset/t000008d2000000019" target="_blank" rel="noopener">東京都・2021年建物現況（加工）</a> / <a href="https://geoshape.ex.nii.ac.jp/ka/" target="_blank" rel="noopener">CODH町丁目（CC BY 4.0・加工）</a>');
+    highlightBuilding(selected===null?null:shops[selected]);updateAtlasLabels();
+  } catch(error) {
+    announce('白地図の一部を読み込めませんでした。背景地図と場所一覧は引き続き利用できます。');
+  }
+}
+function highlightBuilding(place) {
+  if(!selectedOutline||!atlasBuildings)return;
+  selectedOutline.clearLayers();
+  if(place?.buildingId){const feature=atlasBuildings.features.find(f=>f.properties.id===place.buildingId);if(feature)selectedOutline.addData(feature);}
+}
+function updateAtlasLabels() {
+  if(!placeLabels)return;
+  const zoom=map.getZoom();
+  map.getContainer().classList.toggle('atlas-close',zoom>=17);
+  map.getContainer().classList.toggle('atlas-wide',zoom<17.5);
+  placeLabels.clearLayers();if(zoom<17)return;
+  const mapRect=$('map').getBoundingClientRect();
+  const occupied=[...document.querySelectorAll('.title-card,.map-tools,.panel')].map(el=>{
+    const r=el.getBoundingClientRect();return {x:r.left-mapRect.left,y:r.top-mapRect.top,w:r.width,h:r.height};
+  });
+  const overlaps=(a,b)=>a.x<b.x+b.w+5&&a.x+a.w+5>b.x&&a.y<b.y+b.h+5&&a.y+a.h+5>b.y;
+  const size=map.getSize(),order=shops.map((s,i)=>({s,i})).sort((a,b)=>(b.i===selected)-(a.i===selected));
+  for(const {s} of order){
+    const p=map.latLngToContainerPoint([s.lat,s.lng]),width=Math.min(160,s.name.length*11+12);
+    let box,side;
+    for(const candidate of [{x:p.x+19,y:p.y-10,w:width,h:22,side:'right'},{x:p.x-width-19,y:p.y-10,w:width,h:22,side:'left'}]){
+      if(candidate.x<5||candidate.x+width>size.x-5||candidate.y<5||candidate.y+22>size.y-30)continue;
+      if(!occupied.some(r=>overlaps(candidate,r))){box=candidate;side=candidate.side;break;}
+    }
+    if(!box)continue;occupied.push(box);
+    L.marker([s.lat,s.lng],{interactive:false,keyboard:false,pane:'atlasText',icon:L.divIcon({className:`atlas-place-label ${side}`,html:`<span>${s.name}</span>`,iconSize:[0,0]})}).addTo(placeLabels);
+  }
+}
+
 $('panel-toggle').onclick=()=>setPanel(!$('panel').classList.contains('open'));
 $('shops').onclick=e=>{const b=e.target.closest('[data-index]');if(b)showShop(Number(b.dataset.index),true);};
 $('overview').onclick=overview;$('locate').onclick=locate;
@@ -438,12 +548,12 @@ window.addEventListener('pagehide',()=>stopLocation());
 window.addEventListener('resize',()=>{if(map)map.invalidateSize();});
 paint();
 if(window.L){
-  map=L.map('map',{zoomControl:false}).setView([35.6958,139.7575],16);
+  map=L.map('map',{zoomControl:false,preferCanvas:true}).setView([35.6958,139.7575],16);
   L.control.zoom({position:'topright'}).addTo(map);L.control.scale({imperial:false,position:'bottomleft'}).addTo(map);
-  let tileFailures=0;const tiles=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+  let tileFailures=0;const tiles=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,className:'context-tiles',opacity:0.58,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
   tiles.on('tileerror',()=>{if(++tileFailures===3)announce('背景地図を読み込めません。通信状態を確認してください。場所一覧は利用できます。');});
-  shops.forEach((s,i)=>{const m=L.marker([s.lat,s.lng],{icon:icon(i),title:s.name,keyboard:true}).addTo(map).bindTooltip(s.name,{direction:'top',offset:[0,-15],className:'map-tooltip'}).on('click',()=>showShop(i,true));markers.push(m);});
-  map.on('dragstart',()=>{follow=false;});paint();overview();
+  shops.forEach((s,i)=>{const m=L.marker([s.lat,s.lng],{icon:icon(i),title:s.name,keyboard:true}).addTo(map).bindTooltip(s.name,{direction:'top',offset:[0,-15],className:'map-tooltip'}).on('click',()=>showShop(i,true));markers.push(m);m.on('tooltipopen',()=>{if(placeLabels&&map.getZoom()>=17)m.closeTooltip();});});
+  map.on('dragstart',()=>{follow=false;});map.on('zoomend moveend',updateAtlasLabels);paint();overview();loadAtlasBasemap();
 }else{announce('地図を読み込めませんでした。通信状態を確認して再読み込みしてください。場所一覧は利用できます。');setPanel(true);}
 if(window.innerWidth>=760)setPanel(true);
 

@@ -21,3 +21,10 @@ GitHub Pages：main / (root)。ビルド・APIキー不要。ローカルでは 
 Leaflet 1.9.4（BSD-2-Clause）https://leafletjs.com/
 
 地図：© OpenStreetMap contributors（ODbL）https://www.openstreetmap.org/copyright
+
+
+## 白地図
+
+ユーザーの前作 https://builtbyko.github.io/jinbocho/ を参考に、建物形状、道路・歩道、通り名、丁目名を利用しています。神保町一〜三丁目内を白地図、範囲外を淡いOSM地図として表示します。データは `data/` に保存しており、公開時はこのディレクトリも必要です。拡大時の地点名は重なりを避けて表示します。
+
+建物：東京都・2021年度土地利用現況調査（加工）。道路等：© OpenStreetMap contributors（ODbL）。町丁目：CODH作成（CC BY 4.0）。出典・注意点は SOURCES.md を参照してください。
